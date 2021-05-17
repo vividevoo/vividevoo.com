@@ -291,7 +291,7 @@ footer p{
 #gravure{
     width:720px;
     height:800px;
-    background:yellow;
+    background:blue;
     margin:5px auto;
     display:grid;
     grid-template-rows: 100px  100px 100px 100px 100px 100px 100px 100px;
