@@ -335,23 +335,84 @@ footer p{
     font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
     text-shadow: 1px 1px 1px black;
 }
-
-.slider-pro{
-	display:block;
-	position:absolute;
-	top:50px;
-	width:90vw;
-	height:auto;
-	
+.ipadslide{
+	width:800px;
+	height:1100px;
+	margin:0 auto;
 }
 
-.sp-slides{
-	display:block;
-	width:100vw;
-    height:auto;
-	background-size: cover;
+.ipadslide img{
+	vertical-align:bottom; /*下端の余白を消す*/
+	object-fit:cover;
 }
 
+ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#mainframe{
+	width:600px;
+	height:800px;
+	margin-bottom:8px;
+	border-radius:10px;
+	object-fit:cover;
+}
+
+.control{
+	margin-bottom:8px;
+}
+
+.control ul{
+	display:flex;
+	justify-content:space-between;
+}
+
+.control li{
+	border:1px solid #ddd;
+	border-radius:4px;
+	font-size:21px;
+	padding:4px;
+	text-align:center;
+	cursor:pointer;
+	user-selet:none;
+}
+
+.control li:hover{
+	background:#f8f8f8;
+}
+
+
+#play{
+	width:280px;
+}
+
+#prev,
+#next{
+	width:120px;
+}
+
+.thumnails{
+	display:grid;
+	grid-template-columns:repeat(5, 110px); /*横5列で56pxの幅*/
+	gap: 12px; /*余白5px*/
+}
+
+.thumnails li{
+	cursor:pointer;
+	opacity:0.4;
+}
+
+.thumnails li:hover,
+.thumnails li.current{
+	opacity:1;
+}
+
+.thumnails img{
+	width:110px;
+
+}
 
 #gravure{
     display:none;
