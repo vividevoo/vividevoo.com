@@ -91,59 +91,6 @@ h2{
     position:relative;
     
 }
-.text{
-    display:flex;
-    position:relative;
-    top:40px;
-    flex-direction:column;
-    margin:auto;
-    width:95%;
-    height:auto;
-    text-align:center;
-    background:rgb(50,50,50);
-    font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    sans-serif;
-    padding:10px;
-    border-radius:5px;
-    margin-bottom:90px;
-}
-
-.text h3{
-    margin-top:13px;
-    margin-bottom:10px;
-    font-size: 22px;
-    background:rgb(200,0,90);
-    color:white;
-    line-height: 45px;
-    width:100%;
-    margin:auto;
-    font-weight: 300;
-}
-
-.text p{
-    font-size:18px;
-    line-height:26px;
-    letter-spacing: 2px;
-    color:white;
-    font-weight: 200;
-}
-
-.innertext{
-    width:95%;
-    height:auto;
-    margin:auto;
-    padding:5px;
-}
-
-
-.kinkyo img{
-    display:inline-block;
-    width:100% !important;
-    margin:5px;
-}
 
 
 
@@ -340,62 +287,65 @@ footer p{
 .slider-pro{
 	display:none;
 }
+
 #gravure{
-    width:1200px;
-    height:840px;
+    width:900px;
+    height:1400px;
     background:yellow;
     margin:5px auto;
     display:grid;
-    grid-template-rows: 420px 420px;
-    grid-template-columns: 350px 250px 250px 350px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-columns: 300px 300px 300px;
     padding:0;
 }
 
 #itemA {
-    width:350px;
-    height:840px;
+    width:300px;
+    height:750px;
     object-fit: cover;
-    grid-row: 1 / 3;
+    grid-row: 1 / 6;
     grid-column: 1 / 2;
+	background:pink;
 }
 
 #itemB {
-    width:250px;
-    height:420px;
+    width:300px;
+    height:450px;
     object-fit: cover;
-    grid-row: 1 / 2;
-    grid-column: 2 /3;
+    grid-row: 6 / 9;
+    grid-column: 1 / 2;
+	background:yellow;
 }
 
 #itemC {
-    width:250px;
-    height:420px;
+    width:300px;
+    height:600px;
     object-fit: cover;
-    grid-row: 2 / 3;
+    grid-row: 1 / 5;
     grid-column: 2 / 3;
 }
 
 #itemD {
-    width:250px;
-    height:420px;
+    width:300px;
+    height:600px;
     object-fit: cover;
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-row: 5 / 9;
+    grid-column: 2 / 3;
 }
 
 #itemE {
-    width:250px;
-    height:420px;
+    width:300px;
+    height:450px;
     object-fit: cover;
-    grid-row: 2 / 3;
+    grid-row: 1 / 4;
     grid-column: 3 / 4;
 }
 
 
 #itemF {
-    width:350px;
-    height:840px;
+    width:300px;
+    height:750px;
     object-fit: cover;
-    grid-row: 1 / 3;
-    grid-column: 4 / 5;
+    grid-row: 4 / 9;
+    grid-column: 3 / 4;
 }
