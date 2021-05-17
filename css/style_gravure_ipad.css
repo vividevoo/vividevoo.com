@@ -296,7 +296,7 @@ input[type="checkbox"]:checked ~ .back{
     width:200px;
     text-decoration: none;
     font-size:26px;
-    color:rgb(200,0,90);
+    color:white;
     text-align:left;
 }
 
