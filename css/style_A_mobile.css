@@ -129,6 +129,10 @@ h2{
     width:100% !important;
     height:auto !important;
     top:90px;
+    animation-name: album;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    opacity: 0;
     animation-delay:5s;
 }
 
