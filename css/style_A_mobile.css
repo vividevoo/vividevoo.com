@@ -271,10 +271,10 @@ input[type="checkbox"]:checked ~ .back{
 
 .mobiletitle{
     position:relative;
-    top:10px;
+    top:5px;
     left:10px;
     display:inline-block;
-    line-height: 40px;
+    line-height: 35px;
     width:140px;
     text-decoration: none;
     font-size:18px;
