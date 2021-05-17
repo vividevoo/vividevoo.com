@@ -291,11 +291,12 @@ footer p{
 #gravure{
     width:720px;
     height:800px;
-    margin:5px auto 15px;
+    margin:5px auto;
     display:grid;
     grid-template-rows: 100px  100px 100px 100px 100px 100px 100px 100px;
     grid-template-columns: 240px 240px 240px;
     padding:0;
+	margin-bottom:30px;
 }
 
 #itemA {
