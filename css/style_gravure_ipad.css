@@ -145,44 +145,7 @@ h2{
     margin:5px;
 }
 
-.mainphoto{
-    position:fixed;
-    width:100% !important;
-    top:90px;
-    height:auto !important;
-    animation-delay:5s;
-}
 
-
-
-.mainphoto2{
-    position:fixed;
-    width:100% !important;
-    height:auto !important;
-    top:90px;
-    animation-name: album;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	opacity: 0;
-    
-}
-
-@keyframes album {
-	0% {
-		opacity: 0;
-	}
-	
-	12.5% {
-		opacity: 1;
-	}
-
-	37.5% {
-		opacity: 1;
-	}
-	50% {
-		opacity: 0;
-	}
-}
 
 label{
     position:relative;
@@ -374,21 +337,19 @@ footer p{
 }
 
 .slider-pro{
-    position:absolute;
-    top:80px;
-    width:95% !important;
-    height:80% !important;
-    background:pink;
-    object-fit: cover;
+	display:block;
+	position:absolute;
+	top:50px;
+	width:90vw;
+	height:auto;
 	
 }
 
 .sp-slides{
-    display:block;
-    width:95% !important;
-    height:80% !important;
-    object-fit: cover;
-
+	display:block;
+	width:100vw;
+    height:auto;
+	background-size: cover;
 }
 
 
