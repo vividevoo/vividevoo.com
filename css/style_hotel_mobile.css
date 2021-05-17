@@ -302,7 +302,6 @@ input[type="checkbox"]:checked ~ .back{
 
 .mobiletitle{
     position:relative;
-    top:5px;
     left:10px;
     display:inline-block;
     line-height: 40px;
@@ -313,10 +312,9 @@ input[type="checkbox"]:checked ~ .back{
     text-align:left;
 }
 
-
 .mobilelink{
     position:relative;
-    top:30px;
+    top:15px;
     left:10px;
     display:inline-block;
     line-height:35px;
