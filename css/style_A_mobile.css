@@ -318,7 +318,7 @@ input[type="checkbox"]:checked ~ .back{
 
 .copymobile{
     position:fixed;
-    top:100px;
+    bottom:50px;
     left:10px;
     width:auto;
     height:auto;
