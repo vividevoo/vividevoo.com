@@ -315,6 +315,7 @@ footer p{
     grid-row: 6 / 9;
     grid-column: 1 / 2;
     background:skyblue;
+	border:1px solid skyblue;
 }
 
 #itemC {
