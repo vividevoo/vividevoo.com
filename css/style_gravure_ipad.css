@@ -305,7 +305,7 @@ footer p{
     object-fit: cover;
     grid-row: 1 / 6;
     grid-column: 1 / 2;
-	background:pink;
+    background:pink;
 }
 
 #itemB {
@@ -314,7 +314,7 @@ footer p{
     object-fit: cover;
     grid-row: 6 / 9;
     grid-column: 1 / 2;
-	background:yellow;
+    background:yellow;
 }
 
 #itemC {
