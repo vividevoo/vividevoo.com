@@ -1,0 +1,385 @@
+html{
+    width:100%;
+    background:rgb(33,33,33);
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    
+    font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+.modal { 
+    position:relative;
+    top:50vh;
+    display:none; 
+    z-index:9999; 
+    margin:auto;
+    width:70%; 
+    height:160px; 
+    padding-top:5px;
+    padding-bottom:10px;
+    text-align:center; 
+    background:rgb(200,0,90);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    color:white;
+    
+}
+.modal p { 
+    margin-bottom:15px; 
+    font-size: 20px;
+
+
+}
+.modal a { 
+    display:inline-block;
+    cursor:pointer; 
+    font-size:20px;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+}
+
+.close_modal{
+    background:rgba(255,255,255,0.5);
+    line-height: 20px;
+}
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    color:white;
+    align-items: center;
+    width:100%;
+    height:120px;
+    z-index:3333;
+    background:rgb(33,33,33);
+    position:fixed;
+    top:0;
+    left:0;
+  
+}
+
+h1{
+    position:fixed;
+    top:50px;
+    left:240px;
+    font-size:30px;
+    margin-right:10px;
+    line-height:10px;
+    z-index:8888;
+}
+
+h2{
+    position:fixed;
+    top:60px;
+    left:405px;
+    font-size:16px;
+}
+
+.logo{
+
+    z-index:8888;
+    width:200px;
+    position:fixed;
+    left:10px;
+    top:15px;
+    filter:drop-shadow(1px 1px 1px black);
+}
+
+.line{
+    position: fixed;
+    top: 110px; left: 0;
+    width: 100%; height: 1px;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:5555;
+}
+
+.line2{
+    position: fixed;
+    top: 0; left: 15px;
+    width: 1px; height: 100%;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:5555;
+}
+
+.nav{
+    display:none;
+}
+.main{
+    position:fixed;
+    top:100px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    position:relative;
+    
+}
+.text{
+    display:flex;
+    position:relative;
+    top:40px;
+    flex-direction:column;
+    margin:auto;
+    width:95%;
+    height:auto;
+    text-align:center;
+    background:rgb(50,50,50);
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    sans-serif;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:90px;
+}
+
+.text h3{
+    margin-top:13px;
+    margin-bottom:10px;
+    font-size: 22px;
+    background:rgb(200,0,90);
+    color:white;
+    line-height: 45px;
+    width:100%;
+    margin:auto;
+    font-weight: 300;
+}
+
+.text p{
+    font-size:18px;
+    line-height:26px;
+    letter-spacing: 2px;
+    color:white;
+    font-weight: 200;
+}
+
+.innertext{
+    width:95%;
+    height:auto;
+    margin:auto;
+    padding:5px;
+}
+
+
+.kinkyo img{
+    display:inline-block;
+    width:100% !important;
+    margin:5px;
+}
+
+.mainphoto{
+    position:fixed;
+    width:100% !important;
+    top:90px;
+    height:auto !important;
+    animation-delay:5s;
+}
+
+
+
+.mainphoto2{
+    position:fixed;
+    width:100% !important;
+    height:auto !important;
+    top:90px;
+    animation-name: album;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	opacity: 0;
+    
+}
+
+@keyframes album {
+	0% {
+		opacity: 0;
+	}
+	
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+label{
+    position:relative;
+    margin:0 auto; /*ハンバーガーをセンターにしました*/
+    left:-2px;
+    top:-3px;
+    margin-bottom:0;
+}
+  
+  
+  
+.mobilearea{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:28px;
+    right:0px;
+    margin:5px auto;
+    width:85px;
+    height:85px;
+    padding:0;
+    z-index:8888;
+}
+  
+input[type="checkbox"]{
+    position:absolute;
+    right:-100px;
+    background-color: brown;
+    display:block;
+}
+  
+input[type="checkbox"]:checked ~ .mobile_menu{
+    right:-1px;
+}
+  
+.mobilearea h5{
+    display:inline-block;
+    position:absolute;
+    top:10px;
+    right:-15px;
+    width:100%;
+    color:rgb(200,0,90);
+    font-size:18px;
+}
+.open{
+    display:block;
+    width: 75px;
+    height:130px;
+    margin:0 auto 0px;
+}
+.open img{
+    width:65px;
+    height:40px;
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+    margin:0 auto 0px;
+}
+input[type="checkbox"]:checked ~ .open img{
+    opacity:0;
+}
+  
+  
+input[type="checkbox"]:checked ~ .back{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:450;
+    background:rgba(0,0,0,0.6);
+}
+  
+  
+  
+.close {
+    display:block;
+    color:rgb(200,0,90);
+    font-size:110px;
+    line-height: 65px;
+    margin:5px auto 5px;
+    font-weight: lighter;
+    margin-bottom:20px;
+    text-align:center;
+}
+  
+  
+  
+.mobile_menu{
+    display:block;
+    position:fixed;
+    top:0px;
+    right:-230px;
+    width:220px;
+    height:600px;
+    background:rgba(33,33,33, 0.7);
+    z-index:8888;
+    border-radius:3px;
+    padding:3px;
+    text-align:left;
+    border-top:none;
+    transition:all 0.3s;
+}
+
+.mobiletitle{
+    position:relative;
+    top:20px;
+    left:10px;
+    display:inline-block;
+    line-height: 55px;
+    width:200px;
+    text-decoration: none;
+    font-size:26px;
+    color:rgb(200,0,90);
+    text-align:left;
+}
+
+.mobilelink{
+    position:relative;
+    top:40px;
+    left:10px;
+    display:inline-block;
+    line-height:45px;
+    width:140px;
+    height:auto;
+}
+
+.mobilelink img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    margin:6px 0;
+}
+
+.mobilesmall{
+    position: absolute;
+    right: 3px;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+footer{
+    width:100%;
+    height:35px;
+    background-color:rgb(200, 0, 90);
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing: border-box;
+
+    z-index:6666;
+}
+
+
+footer p{
+    color:white;
+    line-height:10px;
+    align-items: center;
+    margin-bottom:5px;
+    text-align:center;
+}

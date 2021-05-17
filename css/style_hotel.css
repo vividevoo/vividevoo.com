@@ -1,0 +1,303 @@
+html{
+    width:100%;
+    background:rgb(33,33,33);
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    
+    font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    color:white;
+    align-items: center;
+    width:100%;
+    height:50px;
+    z-index:4444;
+    background:rgb(33,33,33);
+    position:fixed;
+    top:0;
+    left:0;
+  
+}
+
+h1{
+    font-size:30px;
+    margin-right:10px;
+    line-height:10px;
+    z-index:8888;
+}
+
+h2{
+    font-size:18px;
+}
+
+.nav{
+    position:fixed;
+    left:0;
+    top:0;
+    background:rgb(33,33,33);
+    width:190px;
+    height:100%;
+
+}
+
+
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    width:160px;
+    height:400px;
+    
+    margin-top:130px;
+    margin-left:20px;
+}
+
+.menu a{
+    position: relative;
+    text-decoration: none;
+    margin-top:10px;
+    color:white;
+    font-size:22px;
+    line-height: 55px;
+}
+
+.menu a:hover{
+    color:rgb(200,0,90);
+    border-bottom:1px solid rgb(200, 0, 90);
+}
+
+
+
+.menusmall{
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.follow-me {
+    position:relative;
+    top:40px;
+    left:18px;
+    width:130px;
+    height:auto;
+    list-style: none;
+    margin: 15px 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.follow-me img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    margin:10px 0;
+}
+
+.follow-me img:hover{
+    opacity:0.7;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    position:relative;
+    height:100%;
+    background-image:
+    repeating-linear-gradient(
+      -45deg,
+      rgb(200,0,90) ,
+      rgb(200,0,90) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(200,0,90) ,
+      rgb(200,0,90) 1px,
+      rgb(33,33,33)  1px,
+      rgb(33,33,33) 40px
+    );
+}
+
+
+.logo{
+    z-index:8888;
+    width:180px;
+    position:fixed;
+    left:15px;
+    top:20px;
+    filter:drop-shadow(1px 1px 1px black);
+}
+
+.line{
+    position: fixed;
+    top: 40px; left: 0;
+    width: 100%; height: 1px;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:5555;
+}
+
+.line2{
+    position: fixed;
+    top: 0; left: 180px;
+    width: 1px; height: 100%;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:5555;
+}
+
+.system{
+    display:flex;
+    position:relative;
+    top:80px;
+    flex-direction:column;
+    margin:auto;
+    width:1200px;
+    height:auto;
+    text-align:center;
+    background:white;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    sans-serif;
+    padding:5px;
+    border-radius:5px;
+    background-image: url(img/pattern.svg);
+    background-repeat:repeat;
+    background-size:10%;
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+    margin-bottom:20px;
+    
+}
+.system h3{
+    font-size:33px;
+    margin:0;
+    padding:0;
+    color:white;
+    font-weight:400;
+    letter-spacing:10px;
+    margin:10px;
+    font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.area{
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    width:1130px;
+    height:auto;
+    /* background:turquoise; */
+    padding:5px;
+    background:rgb(145,145,145);
+    margin-bottom:15px;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+    height:180px;
+    
+    padding:5px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    background:white; 
+    border-radius:5px;
+}
+
+.list h5{
+    font-size:20px;
+    line-height: 24px;
+    margin:0 auto;
+}
+.list a{
+    display:inline-block;
+    width:90%;
+    height:40px;
+    text-decoration:none;
+    line-height: 40px;
+    background:rgb(155,155,155);
+    border:white;
+    margin-bottom:2px;
+    margin-top:0;
+    margin:auto;
+    box-shadow:1px 1px 1px black;
+    color:white;
+}
+.list p{
+    font-size:14px;
+}
+
+.none{
+    background:rgba(255,255,255,0);
+}
+
+.hotelwrap{
+    margin-top:15px;
+}
+
+.hotelwrap h4{
+    font-size:22px;
+    background:rgb(200, 0, 90);
+    line-height: 30px;
+    color:white;
+    font-weight: 300;
+    width:1150px;
+    margin:auto;
+    margin-bottom:5px;
+}
+
+
+footer{
+    width:100%;
+    height:35px;
+    background-color:rgb(200, 0, 90);
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing: border-box;
+
+    z-index:200;
+}
+
+
+footer p{
+    color:white;
+    line-height:10px;
+    align-items: center;
+    margin-bottom:5px;
+    text-align:center;
+}
+
+
+.copymobile{
+    display:none;
+}
+
+.profilemobile{
+    display:none;
+}
+
+.mobilearea{
+    display:none;
+}

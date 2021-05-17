@@ -1,0 +1,287 @@
+html{
+    width:100%;
+    background:rgb(33,33,33);
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    
+    font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    
+}
+
+
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    color:white;
+    align-items: center;
+    width:100%;
+    height:50px;
+    z-index:4444;
+    background:rgb(33,33,33);
+    position:fixed;
+    top:0;
+    left:0;
+  
+}
+
+h1{
+    font-size:30px;
+    margin-right:10px;
+    line-height:10px;
+    z-index:8888;
+}
+
+h2{
+    font-size:18px;
+}
+
+.nav{
+    position:fixed;
+    left:0;
+    top:0;
+    background:rgb(33,33,33);
+    width:190px;
+    height:100%;
+    z-index:5555;
+}
+
+
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    width:160px;
+    height:400px;
+    
+    margin-top:130px;
+    margin-left:20px;
+}
+
+.menu a{
+    position: relative;
+    text-decoration: none;
+    margin-top:10px;
+    color:white;
+    font-size:22px;
+    line-height: 55px;
+}
+
+.menu a:hover{
+    color:rgb(200,0,90);
+    border-bottom:1px solid rgb(200, 0, 90);
+}
+
+
+
+.menusmall{
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.follow-me {
+    position:relative;
+    top:40px;
+    left:18px;
+    width:130px;
+    height:auto;
+    list-style: none;
+    margin: 15px 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.follow-me img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    margin:10px 0;
+}
+
+.follow-me img:hover{
+    opacity:0.7;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    position:relative;
+    height:100%;
+    background-image:
+    repeating-linear-gradient(
+      -45deg,
+      rgb(200,0,90) ,
+      rgb(200,0,90) 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(200,0,90) ,
+      rgb(200,0,90) 1px,
+      rgb(33,33,33)  1px,
+      rgb(33,33,33) 40px
+    );
+}
+
+
+.logo{
+
+    z-index:8888;
+    width:180px;
+    position:fixed;
+    left:15px;
+    top:20px;
+    filter:drop-shadow(1px 1px 1px black);
+}
+
+.line{
+    position: fixed;
+    top: 40px; left: 0;
+    width: 100%; height: 1px;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:6666;
+}
+
+.line2{
+    position: fixed;
+    top: 0; left: 180px;
+    width: 1px; height: 100%;
+    display: block;
+    background: rgb(200, 0, 90);
+    z-index:6666;
+}
+
+.system{
+    display:flex;
+    position:relative;
+    top:80px;
+    flex-direction:column;
+    margin:auto;
+    width:1200px;
+    height:2200px;
+    text-align:center;
+    background:rgb(50,50,50);
+    font-family: 
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    sans-serif;
+    padding:5px;
+    border-radius:5px;
+    margin-bottom:150px;
+    
+    
+}
+.system h3{
+    font-size:33px;
+    margin:0;
+    padding:0;
+    color:white;
+    font-weight:400;
+    letter-spacing:10px;
+    margin:10px;
+    font-family: 'Cormorant Garamond', "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    text-shadow: 1px 1px 1px black;
+   
+}
+.playwrap{
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+    width:1100px;
+    height:2100px;
+    /* background:yellow; */
+    padding:10px;
+}
+.play{
+    width:530px;
+    height:680px;
+    background:rgb(145,145,145);
+    padding:5px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+}
+
+.play h4{
+    font-size:23px;
+    font-weight:200;
+    color:white;
+    background:rgb(200, 0, 90);
+    line-height: 38px;
+    letter-spacing: 5px;
+    margin-top:0;
+    margin-bottom:5px;
+}
+
+.play p{
+    font-size:18px;
+}
+
+.play img{
+    width:500px;
+    height:500px;
+    object-fit:cover;
+}
+
+.play01 img{
+    object-position:0 0;
+}
+.play02 img{
+    object-position:0 -20px;
+}
+.play03 img{
+    object-position:0 0;
+}
+
+.play04 img{
+    object-position:0 0;
+}
+
+footer{
+    width:100%;
+    height:35px;
+    background-color:rgb(200, 0, 90);
+    position:fixed;
+    bottom:0;
+    left:0;
+    box-sizing: border-box;
+
+    z-index:5555;
+}
+
+
+footer p{
+    color:white;
+    line-height:10px;
+    align-items: center;
+    margin-bottom:5px;
+    text-align:center;
+}
+
+
+
+.copymobile{
+    display:none;
+}
+
+.profilemobile{
+    display:none;
+}
+
+.mobilearea{
+    display:none;
+}
