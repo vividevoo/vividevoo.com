@@ -294,14 +294,14 @@ footer p{
     background:yellow;
     margin:5px auto;
     display:grid;
-    grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px  100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 240px 240px 240px;
     padding:0;
 }
 
 #itemA {
-    width:300px;
-    height:750px;
+    width:240px;
+    height:500px;
     object-fit: cover;
     grid-row: 1 / 6;
     grid-column: 1 / 2;
@@ -309,8 +309,8 @@ footer p{
 }
 
 #itemB {
-    width:300px;
-    height:450px;
+    width:240px;
+    height:300px;
     object-fit: cover;
     grid-row: 6 / 9;
     grid-column: 1 / 2;
@@ -318,24 +318,24 @@ footer p{
 }
 
 #itemC {
-    width:300px;
-    height:600px;
+    width:240px;
+    height:400px;
     object-fit: cover;
     grid-row: 1 / 5;
     grid-column: 2 / 3;
 }
 
 #itemD {
-    width:300px;
-    height:600px;
+    width:240px;
+    height:400px;
     object-fit: cover;
     grid-row: 5 / 9;
     grid-column: 2 / 3;
 }
 
 #itemE {
-    width:300px;
-    height:450px;
+    width:240px;
+    height:300px;
     object-fit: cover;
     grid-row: 1 / 4;
     grid-column: 3 / 4;
@@ -343,8 +343,8 @@ footer p{
 
 
 #itemF {
-    width:300px;
-    height:750px;
+    width:240px;
+    height:500px;
     object-fit: cover;
     grid-row: 4 / 9;
     grid-column: 3 / 4;
