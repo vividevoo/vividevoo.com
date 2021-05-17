@@ -284,14 +284,13 @@ input[type="checkbox"]:checked ~ .back{
 }
   
   
-  
 .mobile_menu{
     display:block;
     position:fixed;
     top:0px;
     right:-170px;
     width:160px;
-    height:400px;
+    height:450px;
     background:rgba(33,33,33, 0.7);
     z-index:8888;
     border-radius:3px;
@@ -306,13 +305,14 @@ input[type="checkbox"]:checked ~ .back{
     top:5px;
     left:10px;
     display:inline-block;
-    line-height: 35px;
+    line-height: 40px;
     width:140px;
     text-decoration: none;
     font-size:18px;
     color:white;
     text-align:left;
 }
+
 
 .mobilelink{
     position:relative;
