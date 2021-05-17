@@ -295,7 +295,9 @@ footer p{
 .profilemobile{
     display:none;
 }
-
+.ipadslide{
+    display:none;
+}
 .mobilearea{
     display:none;
 }
