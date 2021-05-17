@@ -247,7 +247,7 @@ input[type="checkbox"]:checked ~ .back{
     line-height: 65px;
     margin:5px auto 5px;
     font-weight: lighter;
-    margin-bottom:20px;
+    margin-bottom:10px;
     text-align:center;
 }
   
@@ -287,7 +287,7 @@ input[type="checkbox"]:checked ~ .back{
     top:30px;
     left:10px;
     display:inline-block;
-    line-height:45px;
+    line-height:35px;
     width:100px;
     height:auto;
 }
