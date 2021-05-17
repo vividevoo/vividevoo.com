@@ -127,8 +127,8 @@ h2{
 .mainphoto{
     position:fixed;
     width:100% !important;
-    top:90px;
     height:auto !important;
+    top:90px;
     animation-delay:5s;
 }
 
