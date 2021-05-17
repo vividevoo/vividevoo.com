@@ -331,11 +331,9 @@ input[type="checkbox"]:checked ~ .back{
 }
 
 .copymobile p{
-    font-size:12px;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    font-size:10px;
     letter-spacing: 1px;
-    line-height:18px;
+    line-height:16px;
 }
 
 .profilemobile{
